@@ -1,0 +1,85 @@
+<head>
+  <title>Satoshi Square</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <h1>Satoshi Square</h1>
+  <h2>powered by Project Buttonwood</h2>
+  <div>{{loginButtons}}</div>
+  <div align="center">
+  {{> bid_list}}
+  {{> ask_list}}
+  </div>
+
+</body>
+
+<template name="bid_list">
+  <table>
+  	<thead>
+  		<tr>
+  			<th COLSPAN="3">BIDS</th>
+  		</tr>
+  		<tr>
+  			<th>User</th>
+  			<th>Price</th>
+  			<th>Size</th>
+  			
+  		</tr>
+  		<tr>
+  			<th><input type="text" id="bid_name" Placeholder="User"></th>
+  			<th><input type="text" id="bid_price" Placeholder=0></th>
+  			<th><input type="text" id="bid_size" Placeholder=0><input type="button" class="add" value="submit"></th>
+  			
+  		</tr>
+  	</thead>
+  	<tbody>
+  		{{#each bids}}
+  			<tr>
+  				{{> bid_info}}
+  			</tr>
+  		{{/each}}
+  	</tbody>
+  </table>
+  
+</template>
+<template name="ask_list">
+  <table>
+  	<thead>
+  		<tr>
+  			<th COLSPAN="3">ASKS</th>
+  		</tr>
+  		<tr>
+  			<th>User</th>
+  			<th>Price</th>
+  			<th>Size</th>
+
+  			
+  		</tr>
+  		<tr>
+  			<th><input type="text" id="ask_name" Placeholder="User"></th>
+  			<th><input type="text" id="ask_price" Placeholder=0></th>
+  			<th><input type="text" id="ask_size" Placeholder=0><input type="button" class="add" value="submit"></th>
+  			
+  		</tr>
+  	</thead>
+  	<tbody>
+  		{{#each asks}}
+  			<tr>
+  				{{> ask_info}}
+  			</tr>
+  		{{/each}}
+  	</tbody>
+  </table>
+</template>
+<template name="bid_info">
+		<td><input id="{{_id}}" type="button" class="remove" value="X">{{currentUser}}</td>
+		<td>${{price}}</td>
+		<td>{{size}}</td>
+		
+</template>
+<template name="ask_info">
+		<td>{{currentUser}}</td>
+		<td>${{price}}</td>
+		<td>{{size}}<input id="{{_id}}" type="button" class="remove" value="X"></td>
+</template>

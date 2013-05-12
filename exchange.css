@@ -1,0 +1,110 @@
+/* CSS declarations go here */
+h1 {
+	text-align: center;
+	font-weight: bold;
+
+}
+h2 {
+	text-align: center;
+}
+body {
+	background-color: gray;
+	color: white;
+	font-size: 20;
+	text-shadow: 1px 1px 1px #000;
+	font-family: Tahoma;
+	background-image: -webkit-radial-gradient(center, circle closest-corner, #D6D6D6 0%, #A1A19B 20%, #404040 50%, #0C0D0D 100%);
+}
+
+td {
+	margin: 25px;
+	opacity: 0.8;
+	border: 10px solid #eee;
+
+	/*Transition*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: 	all 0.5s ease;
+	-o-transition: 		all 0.5s ease;
+}
+th {
+	margin: 25px;
+	opacity: 0.8;
+	border: 10px solid #eee;
+
+	/*Transition*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: 	all 0.5s ease;
+	-o-transition: 		all 0.5s ease;
+}
+table {
+	table-layout: fixed;
+	float: left;
+	color: #F0FFFF;
+	font-weight: bold;
+	border-collapse: separate;
+	border-spacing:0px 10px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+tr {
+	background-color: #3366FF;
+}
+
+th:first-child {
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	width: auto;
+}
+
+th:last-child {
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+}		
+
+th {
+	background-color: #191919;
+	box-shadow: 7px 3px 10px 2px black;
+	padding: 5px;
+	margin: 5px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+tr > td:first-child {
+	text-align: left;
+	width: auto;
+	white-space: nowrap;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	width: auto;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+tr > td:last-child {
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+
+td {
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	box-shadow: 5px 3px 10px 2px black;
+	text-shadow: 1px 1px 1px #000;
+}
+
+th:hover {
+	opacity: 1;
+	-webkit-box-shadow: inset 0px 0px 20px rgba(255,255,255,0.8);
+		-moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+		box-shadow: inset 0px 0px 20px rgba(255,255,255,0.8);
+		cursor: pointer;
+		-webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+.remove {
+	background-color: red;
+	font-weight: bold;
+	color: white;
+}
