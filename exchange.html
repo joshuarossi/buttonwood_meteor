@@ -1,6 +1,20 @@
 <head>
   <title>Satoshi Square</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">
+    function displayPosition(position) {
+      alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
+    }
+
+    function displayError(error) {
+      var errors = { 
+        1: 'Permission denied',
+        2: 'Position unavailable',
+        3: 'Request timeout'
+      };
+      alert("Error: " + errors[error.code]);
+    }
+  </script>
 </head>
 
 <body>
@@ -10,8 +24,8 @@
   <div align="center">
   {{> bid_list}}
   {{> ask_list}}
+  {{> footer}}
   </div>
-
 </body>
 
 <template name="bid_list">
@@ -27,7 +41,7 @@
   			
   		</tr>
   		<tr>
-  			<th><input type="text" id="bid_name" Placeholder="User"></th>
+  			<th><input type="text" id="bid_name" Placeholder="{{currentUser}}" readonly></th>
   			<th><input type="text" id="bid_price" Placeholder=0></th>
   			<th><input type="text" id="bid_size" Placeholder=0><input type="button" class="add" value="submit"></th>
   			
@@ -57,7 +71,7 @@
   			
   		</tr>
   		<tr>
-  			<th><input type="text" id="ask_name" Placeholder="User"></th>
+  			<th><input type="text" id="ask_name" Placeholder="{{currentUser}}" readonly></th>
   			<th><input type="text" id="ask_price" Placeholder=0></th>
   			<th><input type="text" id="ask_size" Placeholder=0><input type="button" class="add" value="submit"></th>
   			
@@ -82,4 +96,11 @@
 		<td>{{currentUser}}</td>
 		<td>${{price}}</td>
 		<td>{{size}}<input id="{{_id}}" type="button" class="remove" value="X"></td>
+</template>
+<template name="footer">
+  <input type="button" class="location" value="Location">
+  <p>If you are interested in helping out on this project, 
+    please check out the <a target="_blankd" href="https://github.com/joshuarossi/buttonwood_meteor">github</a>.</p>
+  <p>If you want to know more about this project's mission and reason for being, 
+    please check out my <a target="_blank" href="http://blog.btcshares.com">blog</a>.</p>
 </template>
