@@ -27,7 +27,7 @@
   			
   		</tr>
   		<tr>
-  			<th><input type="text" id="bid_name" Placeholder="User"></th>
+  			<th>{{user_email}}</th>
   			<th><input type="text" id="bid_price" Placeholder=0></th>
   			<th><input type="text" id="bid_size" Placeholder=0><input type="button" class="add" value="submit"></th>
   			
@@ -36,7 +36,7 @@
   	<tbody>
   		{{#each bids}}
   			<tr>
-  				{{> bid_info}}
+  				{{> ask_info}}
   			</tr>
   		{{/each}}
   	</tbody>
@@ -53,11 +53,9 @@
   			<th>User</th>
   			<th>Price</th>
   			<th>Size</th>
-
-  			
   		</tr>
   		<tr>
-  			<th><input type="text" id="ask_name" Placeholder="User"></th>
+  			<th>{{user_email}}</th>
   			<th><input type="text" id="ask_price" Placeholder=0></th>
   			<th><input type="text" id="ask_size" Placeholder=0><input type="button" class="add" value="submit"></th>
   			
@@ -72,14 +70,15 @@
   	</tbody>
   </table>
 </template>
-<template name="bid_info">
-		<td><input id="{{_id}}" type="button" class="remove" value="X">{{currentUser}}</td>
-		<td>${{price}}</td>
-		<td>{{size}}</td>
-		
-</template>
 <template name="ask_info">
-		<td>{{currentUser}}</td>
-		<td>${{price}}</td>
-		<td>{{size}}<input id="{{_id}}" type="button" class="remove" value="X"></td>
+ <td>
+  {{#if is_mine}}
+   <input id="{{_id}}" type="button" class="remove" value="X"/>
+  {{/if}}
+  {{name}}
+ </td>
+ <td>${{price}}</td>
+ <td>{{size}}</td>
 </template>
+
+
