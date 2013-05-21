@@ -65,7 +65,7 @@ th:last-child {
 
 th {
 	background-color: #191919;
-	box-shadow: 7px 3px 10px 2px black;
+	/*box-shadow: 7px 3px 10px 2px black;*/
 	padding: 5px;
 	margin: 5px;
 	text-shadow: 1px 1px 1px #000;
@@ -91,7 +91,7 @@ td {
 	text-align: center;
 	padding: 5px;
 	margin: 5px;
-	box-shadow: 5px 3px 10px 2px black;
+	/*box-shadow: 5px 3px 10px 2px black;*/
 	text-shadow: 1px 1px 1px #000;
 }
 
