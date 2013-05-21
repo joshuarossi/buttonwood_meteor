@@ -108,3 +108,8 @@ th:hover {
 	font-weight: bold;
 	color: white;
 }
+
+#bid_list {
+	padding-right: 2px;
+}
+
