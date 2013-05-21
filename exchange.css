@@ -19,7 +19,7 @@ body {
 td {
 	margin: 25px;
 	opacity: 0.8;
-	border: 10px solid #eee;
+	/*border: 10px solid #eee;*/
 
 	/*Transition*/
 	-webkit-transition: all 0.5s ease;
@@ -29,7 +29,7 @@ td {
 th {
 	margin: 25px;
 	opacity: 0.8;
-	border: 10px solid #eee;
+	/*border: 10px solid #eee;*/
 
 	/*Transition*/
 	-webkit-transition: all 0.5s ease;
