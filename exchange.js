@@ -37,8 +37,8 @@ if (Meteor.isClient) {
     return Asks.find({}, {sort: {price: 1}});
   };
   //can't figure out how to get this variable into the template
-  Template.user_email = function() {
-    return this.user.emails[0].address;
+  Template.email = function() {
+    return Meteor.user().emails[0].address;
   };
   Template.ask_list.events({
     'click input.add': function() { click_input_add("ask"); }
