@@ -3,7 +3,7 @@ Asks = new Meteor.Collection("asks");
 
 function click_input_add(kind) {
   var user = Meteor.user();
-  if (user == null) {
+  if (user === null) {
     alert('login to put your order on the book');
     return;
   }
@@ -11,10 +11,16 @@ function click_input_add(kind) {
   var price = document.getElementById(kind + '_price').value;
   var size = document.getElementById(kind + '_size').value;
   //console.log("user.id is " + user._id);
-  if (kind == 'ask') {
-    Asks.insert({user_id: user._id, name: email, price: price, size: size});
-  } else {
-    Bids.insert({user_id: user._id, name: email, price: price, size: size});
+  if (price === '' || size === '') {
+    alert('must have valid price and size');
+  }
+  else {
+    if (kind == 'ask') {
+      Asks.insert({user_id: user._id, name: email, price: price, size: size});
+    }
+    if (kind == 'bid') {
+      Bids.insert({user_id: user._id, name: email, price: price, size: size});
+    }
   }
   document.getElementById(kind + '_price').value = '';
   document.getElementById(kind + '_size').value = '';
@@ -30,8 +36,9 @@ if (Meteor.isClient) {
   Template.ask_list.asks = function() {
     return Asks.find({}, {sort: {price: 1}});
   };
+  //can't figure out how to get this variable into the template
   Template.user_email = function() {
-    return Meteor.user().emails[0].address;
+    return this.user.emails[0].address;
   };
   Template.ask_list.events({
     'click input.add': function() { click_input_add("ask"); }
@@ -44,7 +51,7 @@ if (Meteor.isClient) {
   });
   Template.bid_list.events({
     'click input.remove': function(){
-      Bids.remove(this._id)
+      Bids.remove(this._id);
     }
   });
 }
