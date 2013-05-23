@@ -1,6 +1,15 @@
 Bids = new Meteor.Collection("bids");
 Asks = new Meteor.Collection("asks");
 
+function displayPosition(position) {
+  var user = Meteor.user();
+  user.position = position;
+  alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
+}
+function noLocation() {
+  alert("Could not find location");
+}
+
 function click_input_add(kind) {
   var user = Meteor.user();
   if (user === null) {
@@ -36,9 +45,15 @@ if (Meteor.isClient) {
   Template.ask_list.asks = function() {
     return Asks.find({}, {sort: {price: 1}});
   };
-  //can't figure out how to get this variable into the template
-  Template.email = function() {
-    return Meteor.user().emails[0].address;
+  Template.bid_list.user_email = function() {
+    var user = Meteor.user();
+    if (typeof user === 'undefined') { return ""; }
+    else { return user.emails[0].address; }
+  };
+  Template.ask_list.user_email = function() {
+    var user = Meteor.user();
+    if (typeof user === 'undefined') { return ""; }
+    else { return user.emails[0].address; }
   };
   Template.ask_list.events({
     'click input.add': function() { click_input_add("ask"); }
@@ -54,6 +69,22 @@ if (Meteor.isClient) {
       Bids.remove(this._id);
     }
   });
+  Template.location.events({
+    'click input.location': function(){
+      navigator.geolocation.getCurrentPosition(displayPosition, noLocation);
+    }
+  });
+  Template.location.logged_in = function() {
+    return (Meteor.user() != null);
+  };
+  Template.location.position = function() {
+    var user = Meteor.user();
+    if (typeof user === 'undefined') {
+      return null;
+    } else {
+      return user.position;
+    }
+  };
 }
 
 

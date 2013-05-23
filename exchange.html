@@ -7,12 +7,20 @@
   <h1>Satoshi Square</h1>
   <h2>powered by Project Buttonwood</h2>
   <div>{{loginButtons}}</div>
+  {{> location}}
   <div align="center">
   {{> bid_list}}
   {{> ask_list}}
   </div>
 
 </body>
+
+<template name="location">
+  {{#if logged_in}}
+  last known location: {{position}}<br/>
+    update my location now: <input type="button" class="location" value="update"/>
+  {{/if}}
+</template>
 
 <template name="bid_list">
   <table id="bid_list">
