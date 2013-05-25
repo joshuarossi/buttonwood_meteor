@@ -11,7 +11,9 @@ function noLocation()
 {
     alert('Could not find location');
 }
-
+function getUserName(){
+    return Meteor.user().username;
+}
 function click_input_add(kind) {
   var user = Meteor.user();
   if (user === null) {
@@ -46,6 +48,8 @@ if (Meteor.isClient) {
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
+  Template.bid_list.name = function() { return getUserName(); };
+  Template.ask_list.name = function() { return getUserName(); };
   Template.ask_info.is_mine = function() {
     return (this.user_id === Meteor.userId());
   };
