@@ -1,19 +1,8 @@
 Bids = new Meteor.Collection("bids");
 Asks = new Meteor.Collection("asks");
 
-get_location = function () {
-    if (navigator.geolocation) {
-        var timeoutVal = 10 * 1000 * 1000;
-        navigator.geolocation.watchPosition(
-            displayPosition(position),
-            displayError(),
-            { enableHighAccuracy: true, timeout: timeoutVal, maximumAge: 0 }
-        );
-    }
-    else {
-        alert("Geolocation is not supported by this browser");
-    }
-};
+
+
 function displayPosition(position) {
     alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
 }
@@ -28,6 +17,20 @@ displayError = function () {
         3: 'Request timeout'
     };
     alert("Error: " + errors[error.code]);
+};
+
+get_location = function () {
+    if (navigator.geolocation) {
+        var timeoutVal = 10 * 1000 * 1000;
+        navigator.geolocation.watchPosition(
+            displayPosition(position),
+            displayError(),
+            { enableHighAccuracy: true, timeout: timeoutVal, maximumAge: 0 }
+        );
+    }
+    else {
+        alert("Geolocation is not supported by this browser");
+    }
 };
 
 function click_input_add(kind) {
