@@ -15,8 +15,14 @@
 
 </body>
 <template name="body">
-    {{> bid_list}}
-    {{> ask_list}}
+    <div align="center">
+    <table>
+    <tr>
+    <td>{{> bid_list}}</td>
+    <td>{{> ask_list}}</td>
+    </tr>
+    </table>
+    <div>
 </template>
 <template name="bid_list">
   <table id="bid_list">

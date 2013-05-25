@@ -45,6 +45,7 @@ table {
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
+
 	
 }
 tr {
@@ -112,9 +113,10 @@ th:hover {
 	padding-right: 2px;
 }
 #header {
-    background-color: #3366FF;
+    /*background-color: #3366FF;*/
     margin: auto;
 }
 #wrapper {
     margin: auto;
+    display: inline-block;
 }
