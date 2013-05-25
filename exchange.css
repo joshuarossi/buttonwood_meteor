@@ -111,4 +111,6 @@ th:hover {
 #bid_list {
 	padding-right: 2px;
 }
-
+#header {
+    background-color: #3366FF;
+}
