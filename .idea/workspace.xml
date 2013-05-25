@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
+    <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.css" afterPath="$PROJECT_DIR$/exchange.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369514838417" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369515432972" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369498526573" ignored="false" />
-    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369514702430" ignored="false" />
+    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369515311132" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369510970429" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -54,7 +55,7 @@
       <file leaf-file-name="exchange.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="253" selection-end="253" vertical-scroll-proportion="0.4578097">
+            <state line="14" column="22" selection-start="225" selection-end="225" vertical-scroll-proportion="0.42728904">
               <folding />
             </state>
           </provider>
@@ -368,7 +369,11 @@
       <created>1369514840190</created>
       <updated>1369514840190</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Background images">
+      <created>1369514910174</created>
+      <updated>1369514910174</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -456,7 +461,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Background images" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -475,6 +480,7 @@
     <MESSAGE value="Testing externally defined functions" />
     <MESSAGE value="Location features working, each order has a location tag, and your user session also has location. &#10;&#10;Testing now, to see if it updates as you move." />
     <MESSAGE value="Background images" />
+    <MESSAGE value="&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -560,9 +566,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hexabump.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exchange.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="253" selection-end="253" vertical-scroll-proportion="0.4578097">
+        <state line="14" column="22" selection-start="225" selection-end="225" vertical-scroll-proportion="0.42728904">
           <folding />
         </state>
       </provider>
