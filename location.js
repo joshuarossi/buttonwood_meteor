@@ -2,7 +2,7 @@ get_location = function () {
     if (navigator.geolocation) {
         var timeoutVal = 10 * 1000 * 1000;
         navigator.geolocation.watchPosition(
-            setPosition(),
+            displayPosition(),
             displayError(),
             { enableHighAccuracy: true, timeout: timeoutVal, maximumAge: 0 }
         );
@@ -11,6 +11,10 @@ get_location = function () {
         alert("Geolocation is not supported by this browser");
     }
 };
+function displayPosition(position) {
+    alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
+}
+
 setPosition = function (position) {
     Session.set("location", {"latitude": position.coords.latitude, "longitude": position.coords.longitude});
 };
