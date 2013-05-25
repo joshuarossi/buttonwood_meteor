@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.js" afterPath="$PROJECT_DIR$/exchange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.html" afterPath="$PROJECT_DIR$/exchange.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369521095360" ignored="false" />
-    <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369519556589" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369521416044" ignored="false" />
+    <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369521587612" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369518982076" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369521288941" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
@@ -64,7 +64,7 @@
       <file leaf-file-name="exchange.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="29" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.70869035">
+            <state line="40" column="40" selection-start="728" selection-end="728" vertical-scroll-proportion="0.12607099">
               <folding />
             </state>
           </provider>
@@ -129,8 +129,8 @@
         <option value="$PROJECT_DIR$/a.js" />
         <option value="$PROJECT_DIR$/location.js" />
         <option value="$PROJECT_DIR$/exchange.css" />
-        <option value="$PROJECT_DIR$/exchange.html" />
         <option value="$PROJECT_DIR$/exchange.js" />
+        <option value="$PROJECT_DIR$/exchange.html" />
       </list>
     </option>
   </component>
@@ -451,7 +451,11 @@
       <created>1369521097723</created>
       <updated>1369521097723</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="background image">
+      <created>1369521420440</created>
+      <updated>1369521420440</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -666,7 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="29" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.70869035">
+        <state line="40" column="40" selection-start="728" selection-end="728" vertical-scroll-proportion="0.12607099">
           <folding />
         </state>
       </provider>
