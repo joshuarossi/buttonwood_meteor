@@ -42,7 +42,9 @@ if (Meteor.isClient) {
   function get_name(){
       var user = Meteor.user();
       if (user === null || typeof user === 'undefined') { return ""; }
-      return user.username;
+      e = user.username;
+      if (e === null || typeof e === 'undefined') { return ""; }
+      return e;
   }
   Accounts.ui.config(
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
