@@ -11,10 +11,7 @@ function noLocation()
 {
     alert('Could not find location');
 }
-function getUserName(){
-    e = Meteor.user();
-    return e.username;
-}
+
 function click_input_add(kind) {
   var user = Meteor.user();
   if (user === null) {
@@ -42,6 +39,10 @@ function click_input_add(kind) {
 }
 
 if (Meteor.isClient) {
+  function getUserName(){
+    e = Meteor.user();
+    return e.username;
+  }
   Accounts.ui.config(
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
   );
