@@ -73,12 +73,13 @@ if (Meteor.isClient) {
   Template.ask_list.events({
     'click input.remove': function(){ Asks.remove(this._id); }
   });
+  Template.Foo.foo = foo();
   Template.bid_list.events({
     'click input.remove': function(){
       Bids.remove(this._id);
     }
   });
 }
-Template.Foo.foo = foo();
+
 
 
