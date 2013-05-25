@@ -16,8 +16,10 @@
 </body>
 
 <template name="location">
+  {{#if position}}
+    last known location: {{position}}<br/>
+  {{/if}}
   {{#if logged_in}}
-  last known location: {{position}}<br/>
     update my location now: <input type="button" class="location" value="update"/>
   {{/if}}
 </template>
@@ -26,13 +28,13 @@
   <table id="bid_list">
   	<thead>
   		<tr>
-  			<th COLSPAN="3">BIDS</th>
+  			<th COLSPAN="4">BIDS</th>
   		</tr>
   		<tr>
   			<th>User</th>
   			<th>Price</th>
   			<th>Size</th>
-  			
+  			<th>Distance</th>
   		</tr>
   		<tr>
   			<th>{{user_email}}</th>
@@ -55,12 +57,13 @@
   <table id="ask_list">
   	<thead>
   		<tr>
-  			<th COLSPAN="3">ASKS</th>
+  			<th COLSPAN="4">ASKS</th>
   		</tr>
   		<tr>
   			<th>User</th>
   			<th>Price</th>
   			<th>Size</th>
+  			<th>Distance</th>
   		</tr>
   		<tr>
   			<th>{{user_email}}</th>
@@ -88,4 +91,5 @@
  </td>
  <td>${{price}}</td>
  <td>{{size}}</td>
+ <td>{{distance}}</td>
 </template>
