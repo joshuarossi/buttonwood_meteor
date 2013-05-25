@@ -7,14 +7,17 @@
   <div id="header">
   <h1>Satoshi Square</h1>
   <h2>powered by Project Buttonwood</h2>
+  </div>
   <div>{{loginButtons}}</div>
-  <div>
-  {{> bid_list}}
-  {{> ask_list}}
+  <div id="wrapper">
+  {{> body}}
   </div>
-  </div>
-</body>
 
+</body>
+<template name="body">
+    {{> bid_list}}
+    {{> ask_list}}
+</template>
 <template name="bid_list">
   <table id="bid_list">
   	<thead>

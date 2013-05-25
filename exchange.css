@@ -113,4 +113,8 @@ th:hover {
 }
 #header {
     background-color: #3366FF;
+    margin: auto;
+}
+#wrapper {
+    margin: auto;
 }

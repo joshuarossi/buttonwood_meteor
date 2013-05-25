@@ -8,9 +8,9 @@
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369515449356" ignored="false" />
-    <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369515607268" ignored="false" />
-    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369515639313" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369515676489" ignored="false" />
+    <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369515905164" ignored="false" />
+    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369515975966" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369510970429" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -56,7 +56,7 @@
       <file leaf-file-name="exchange.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="10" selection-start="2074" selection-end="2074" vertical-scroll-proportion="1.2208259">
+            <state line="118" column="17" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.8779174">
               <folding />
             </state>
           </provider>
@@ -65,7 +65,7 @@
       <file leaf-file-name="exchange.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="304" selection-end="304" vertical-scroll-proportion="-9.153846">
+            <state line="11" column="18" selection-start="272" selection-end="272" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
@@ -378,7 +378,11 @@
       <created>1369515451959</created>
       <updated>1369515451959</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="background image">
+      <created>1369515678935</created>
+      <updated>1369515678935</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -572,14 +576,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="304" selection-end="304" vertical-scroll-proportion="-9.153846">
+        <state line="11" column="18" selection-start="272" selection-end="272" vertical-scroll-proportion="-7.1923075">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="10" selection-start="2074" selection-end="2074" vertical-scroll-proportion="1.2208259">
+        <state line="118" column="17" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.8779174">
           <folding />
         </state>
       </provider>
