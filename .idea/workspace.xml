@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="" />
+    <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/buttonwood_meteor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369525486744" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369526277567" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369522059180" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369518982076" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369521846620" ignored="false" />
@@ -49,19 +52,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="exchange.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exchange.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="31" selection-start="517" selection-end="517" vertical-scroll-proportion="-0.9561091">
+            <state line="30" column="31" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exchange.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="exchange.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="34" selection-start="722" selection-end="722" vertical-scroll-proportion="-26.153847">
+            <state line="27" column="34" selection-start="517" selection-end="517" vertical-scroll-proportion="-0.0624235">
               <folding />
             </state>
           </provider>
@@ -70,7 +73,7 @@
       <file leaf-file-name="exchange.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="41" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0">
+            <state line="45" column="41" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,6 +110,7 @@
         <option value="Joshua Rossi" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -125,9 +129,9 @@
       <list>
         <option value="$PROJECT_DIR$/a.js" />
         <option value="$PROJECT_DIR$/location.js" />
-        <option value="$PROJECT_DIR$/exchange.css" />
         <option value="$PROJECT_DIR$/exchange.js" />
         <option value="$PROJECT_DIR$/exchange.html" />
+        <option value="$PROJECT_DIR$/exchange.css" />
       </list>
     </option>
   </component>
@@ -195,6 +199,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="buttonwood_meteor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buttonwood_meteor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buttonwood_meteor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -661,21 +675,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="41" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exchange.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="34" selection-start="722" selection-end="722" vertical-scroll-proportion="-26.153847">
+        <state line="45" column="41" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="31" selection-start="517" selection-end="517" vertical-scroll-proportion="-0.9561091">
+        <state line="30" column="31" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exchange.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="34" selection-start="517" selection-end="517" vertical-scroll-proportion="-0.0624235">
           <folding />
         </state>
       </provider>
