@@ -18,6 +18,7 @@ function click_input_add(kind) {
     alert('login to put your order on the book');
     return;
   }
+  var name = user.username;
   var email = user.emails[0].address;
   var price = document.getElementById(kind + '_price').value;
   var size = document.getElementById(kind + '_size').value;
@@ -27,10 +28,10 @@ function click_input_add(kind) {
   }
   else {
     if (kind == 'ask') {
-      Asks.insert({user_id: user._id, name: email, price: price, size: size, location: [Session.get("location").latitude, Session.get("location").longitude]});
+      Asks.insert({user_id: user._id, name: name, price: price, size: size, location: [Session.get("location").latitude, Session.get("location").longitude]});
     }
     if (kind == 'bid') {
-      Bids.insert({user_id: user._id, name: email, price: price, size: size, location: [Session.get("location").latitude, Session.get("location").longitude]});
+      Bids.insert({user_id: user._id, name: name, price: price, size: size, location: [Session.get("location").latitude, Session.get("location").longitude]});
     }
   }
   document.getElementById(kind + '_price').value = '';
