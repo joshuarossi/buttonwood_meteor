@@ -12,7 +12,7 @@ get_location = function () {
     }
 };
 setPosition = function (position) {
-    Session.set("location", [position.coords.latitude, position.coords.longitude]);
+    Session.set("location", {"latitude": position.coords.latitude, "longitude": position.coords.longitude});
 };
 displayError = function () {
     var errors = {

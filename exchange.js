@@ -28,8 +28,8 @@ function click_input_add(kind) {
 }
 
 if (Meteor.isClient) {
-  get_location();
-  Session.set("location", {latitude: position.coords.latitude, longitude: position.coords.longitude});
+
+
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
