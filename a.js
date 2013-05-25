@@ -1,3 +1,3 @@
-function foo(){
+foo = function foo(){
     console.log("foo");
 }
