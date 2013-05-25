@@ -39,6 +39,7 @@ function click_input_add(kind) {
 }
 
 if (Meteor.isClient) {
+<<<<<<< HEAD
 
   function getUsername() {
     var user = Meteor.user();
@@ -46,6 +47,15 @@ if (Meteor.isClient) {
     return user.username;
   }
 
+=======
+  function get_name(){
+      var user = Meteor.user();
+      if (user === null || typeof user === 'undefined') {console.log('no user'); return ""; }
+      e = user.username;
+      if (e === null || typeof e === 'undefined') {console.log('no username'); return ""; }
+      return e;
+  }
+>>>>>>> origin/layout
   Accounts.ui.config(
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
   );
@@ -55,6 +65,9 @@ if (Meteor.isClient) {
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
+
+  Template.bid_list.username = get_name();
+  Template.ask_list.username = get_name();
   Template.ask_info.is_mine = function() {
     return (this.user_id === Meteor.userId());
   };
@@ -72,6 +85,7 @@ if (Meteor.isClient) {
         Asks.remove(this._id);
     }
   });
+
   Template.bid_list.events({
     'click input.remove': function(){
         Bids.remove(this._id);

@@ -7,12 +7,22 @@
   <div id="header">
   <h1>Satoshi Square</h1>
   <h2>powered by Project Buttonwood</h2>
+<<<<<<< HEAD
   </div>
   <div>{{loginButtons}}</div>
   <div id="wrapper">
   {{> body}}
   </div>
 
+=======
+  <div id = "login">{{loginButtons}}</div>
+  </div>
+
+  <div id="wrapper">
+  {{> body}}
+  </div>
+
+>>>>>>> origin/layout
 </body>
 <template name="body">
     <div align="center">
@@ -22,7 +32,11 @@
     <td>{{> ask_list}}</td>
     </tr>
     </table>
+<<<<<<< HEAD
     <div>
+=======
+    </div>
+>>>>>>> origin/layout
 </template>
 <template name="bid_list">
   <table id="bid_list">
@@ -37,7 +51,11 @@
   			
   		</tr>
   		<tr>
+<<<<<<< HEAD
   			<th>{{username}}</th>
+=======
+  			<th>{{currentUser.name}}</th>
+>>>>>>> origin/layout
   			<th><input type="text" id="bid_price" Placeholder=0></th>
   			<th><input type="text" id="bid_size" Placeholder=0><input type="button" class="add" value="submit"></th>
   			
@@ -65,7 +83,11 @@
   			<th>Size</th>
   		</tr>
   		<tr>
+<<<<<<< HEAD
   			<th>{{username}}</th>
+=======
+  			<th>{{currentUser.name}}</th>
+>>>>>>> origin/layout
   			<th><input type="text" id="ask_price" Placeholder=0></th>
   			<th><input type="text" id="ask_size" Placeholder=0><input type="button" class="add" value="submit"></th>
   			
