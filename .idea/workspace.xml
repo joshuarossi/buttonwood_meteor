@@ -7,10 +7,10 @@
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369504778273" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369505124144" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369498526573" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369490577560" ignored="false" />
-    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369505103373" ignored="false" />
+    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369505236078" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -73,7 +73,7 @@
       <file leaf-file-name="exchange.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="242" selection-end="242" vertical-scroll-proportion="0.14116251">
+            <state line="4" column="40" selection-start="141" selection-end="141" vertical-scroll-proportion="0.08066429">
               <folding />
             </state>
           </provider>
@@ -321,7 +321,11 @@
       <created>1369504783571</created>
       <updated>1369504783571</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Testing externally defined functions">
+      <created>1369505126300</created>
+      <updated>1369505126300</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -477,7 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="242" selection-end="242" vertical-scroll-proportion="0.14116251">
+        <state line="4" column="40" selection-start="141" selection-end="141" vertical-scroll-proportion="0.08066429">
           <folding />
         </state>
       </provider>

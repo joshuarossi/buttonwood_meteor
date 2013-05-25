@@ -2,10 +2,10 @@ Bids = new Meteor.Collection("bids");
 Asks = new Meteor.Collection("asks");
 
 function getLocation(){
-    navigator.geolocation.getCurrentPosition(setLocation, noLocation);
+    navigator.geolocation.watchPosition(setLocation, noLocation);
 }
 function setLocation(position){
-    Session.set("location", position);
+    Session.set("location", position.coords);
 }
 function noLocation()
 {
