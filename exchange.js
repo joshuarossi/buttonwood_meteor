@@ -5,18 +5,11 @@ function getLocation(){
     navigator.geolocation.getCurrentPosition(setLocation, noLocation);
 }
 function setLocation(position){
-    Session.set("location", {"latitude": position.coords.latitude, "longitude": position.coords.longitude});
-    displayLocation(position);
-}
-function displayLocation(position)
-{
-var lat = position.coords.latitude;
-var long = position.coords.longitude;
-alert('Found location: ' + lat + ', ' + long);
+    Session.set("location", position);
 }
 function noLocation()
 {
-alert('Could not find location');
+    alert('Could not find location');
 }
 
 function click_input_add(kind) {
@@ -46,7 +39,6 @@ function click_input_add(kind) {
 
 if (Meteor.isClient) {
   getLocation();
-
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
