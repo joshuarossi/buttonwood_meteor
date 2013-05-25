@@ -17,8 +17,8 @@ body {
 
 td {
 	margin: 25px;
-	opacity: 0.8;
-	border: 1px solid #eee;
+
+	/*border: 1px solid #eee;*/
 
 	/*Transition*/
 	-webkit-transition: all 0.5s ease;
@@ -27,7 +27,7 @@ td {
 }
 th {
 	margin: 25px;
-	opacity: 0.8;
+
 	border: 1px solid #eee;
 
 	/*Transition*/
@@ -36,8 +36,8 @@ th {
 	-o-transition: 		all 0.5s ease;
 }
 table {
-	table-layout: fixed;
-	float: left;
+
+
 	color: #F0FFFF;
 	font-weight: bold;
 	border-collapse: separate;
@@ -49,7 +49,7 @@ table {
 	
 }
 tr {
-	background-color: #3366FF;
+	/*background-color: #3366FF;*/
 }
 
 th:first-child {
@@ -72,7 +72,7 @@ th {
 }
 
 tr > td:first-child {
-	text-align: left;
+
 	width: auto;
 	white-space: nowrap;
 	-webkit-border-top-left-radius: 5px;
@@ -115,8 +115,11 @@ th:hover {
 #header {
     /*background-color: #3366FF;*/
     margin: auto;
+    display: compact;
 }
 #wrapper {
     margin: auto;
-    display: inline-block;
+}
+#login {
+    align: center;
 }
