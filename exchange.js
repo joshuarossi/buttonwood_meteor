@@ -27,10 +27,10 @@ function click_input_add(kind) {
   }
   else {
     if (kind == 'ask') {
-      Asks.insert({user_id: user._id, name: email, price: price, size: size});
+      Asks.insert({user_id: user._id, name: email, price: price, size: size, location: [Session.get("location").latitude, Session.get("location").longitude]});
     }
     if (kind == 'bid') {
-      Bids.insert({user_id: user._id, name: email, price: price, size: size});
+      Bids.insert({user_id: user._id, name: email, price: price, size: size, location: [Session.get("location").latitude, Session.get("location").longitude]});
     }
   }
   document.getElementById(kind + '_price').value = '';
