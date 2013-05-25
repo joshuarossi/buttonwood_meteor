@@ -1,30 +1,7 @@
 Bids = new Meteor.Collection("bids");
 Asks = new Meteor.Collection("asks");
 
-function get_location() {
-    if (navigator.geolocation) {
-        var timeoutVal = 10 * 1000 * 1000;
-        navigator.geolocation.watchPosition(
-            setPosition(),
-            displayError(),
-            { enableHighAccuracy: true, timeout: timeoutVal, maximumAge: 0 }
-        );
-    }
-    else {
-        alert("Geolocation is not supported by this browser");
-    }
-}
-function setPosition(position) {
-    Session.set("location", [position.coords.latitude, position.coords.longitude]);
-}
-function displayError() {
-    var errors = {
-        1: 'Permission denied',
-        2: 'Position unavailable',
-        3: 'Request timeout'
-    };
-    alert("Error: " + errors[error.code]);
-}
+
 function click_input_add(kind) {
   var user = Meteor.user();
   if (user === null) {
@@ -51,6 +28,8 @@ function click_input_add(kind) {
 }
 
 if (Meteor.isClient) {
+  get_location();
+  Session.set("location", {latitude: position.coords.latitude, longitude: position.coords.longitude});
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
@@ -60,22 +39,20 @@ if (Meteor.isClient) {
   Template.ask_list.asks = function() {
     return Asks.find({}, {sort: {price: 1}});
   };
-  //can't figure out how to get this variable into the template
-  Template.email = function() {
-    return Meteor.user().emails[0].address;
-  };
-  Template.ask_list.events({
-    'click input.add': function() { click_input_add("ask"); }
+ Template.ask_list.events({
+    'click input.add': function() { click_input_add("ask");}
   });
   Template.bid_list.events({
-    'click input.add': function() { click_input_add("bid"); foo();}
+    'click input.add': function() { click_input_add("bid");}
   });
   Template.ask_list.events({
-    'click input.remove': function(){ Asks.remove(this._id); }
+    'click input.remove': function(){
+        Asks.remove(this._id);
+    }
   });
   Template.bid_list.events({
     'click input.remove': function(){
-      Bids.remove(this._id);
+        Bids.remove(this._id);
     }
   });
 }
