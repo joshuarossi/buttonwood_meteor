@@ -3,14 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.js" afterPath="$PROJECT_DIR$/exchange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/location.js" afterPath="$PROJECT_DIR$/location.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503654322" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503772817" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369498526573" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369490577560" ignored="false" />
-    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503763021" ignored="false" />
+    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369504678078" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -32,8 +33,6 @@
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/session/session.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/domutils/domutils.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/accounts-ui-unstyled/login_buttons_session.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/jquery/jquery.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       <file leaf-file-name="exchange.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="15" selection-start="120" selection-end="120" vertical-scroll-proportion="9.153846">
+            <state line="6" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="-3.9230769">
               <folding />
             </state>
           </provider>
@@ -75,7 +74,7 @@
       <file leaf-file-name="exchange.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="36" selection-start="749" selection-end="749" vertical-scroll-proportion="0.5041518">
+            <state line="22" column="63" selection-start="629" selection-end="629" vertical-scroll-proportion="0.4436536">
               <folding />
             </state>
           </provider>
@@ -84,8 +83,10 @@
       <file leaf-file-name="location.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/location.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="37" selection-start="0" selection-end="868" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="27" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +122,8 @@
       <list>
         <option value="$PROJECT_DIR$/exchange.css" />
         <option value="$PROJECT_DIR$/a.js" />
-        <option value="$PROJECT_DIR$/exchange.html" />
         <option value="$PROJECT_DIR$/location.js" />
+        <option value="$PROJECT_DIR$/exchange.html" />
         <option value="$PROJECT_DIR$/exchange.js" />
       </list>
     </option>
@@ -309,7 +310,11 @@
       <created>1369503656731</created>
       <updated>1369503656731</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Testing externally defined functions">
+      <created>1369503778783</created>
+      <updated>1369503778783</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -426,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exchange.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="120" selection-end="120" vertical-scroll-proportion="9.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/session/session.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.14116251">
@@ -456,14 +454,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/location.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="37" selection-start="0" selection-end="868" vertical-scroll-proportion="0.0">
+        <state line="27" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exchange.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="-3.9230769">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="749" selection-end="749" vertical-scroll-proportion="0.5041518">
+        <state line="22" column="63" selection-start="629" selection-end="629" vertical-scroll-proportion="0.4436536">
           <folding />
         </state>
       </provider>
