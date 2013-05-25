@@ -40,8 +40,9 @@ function click_input_add(kind) {
 
 if (Meteor.isClient) {
   function get_name(){
+      var user = Meteor.user();
       if (user === null || typeof user === 'undefined') { return ""; }
-      return Meteor.user().username;
+      return user.username;
   }
   Accounts.ui.config(
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
