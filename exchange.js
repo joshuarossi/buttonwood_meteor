@@ -36,7 +36,9 @@ function click_input_add(kind) {
   document.getElementById(kind + '_price').value = '';
   document.getElementById(kind + '_size').value = '';
 }
-
+Accounts.ui.config(
+    {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
+)
 if (Meteor.isClient) {
   getLocation();
   Template.bid_list.bids = function() {
