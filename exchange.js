@@ -41,9 +41,9 @@ function click_input_add(kind) {
 if (Meteor.isClient) {
   function get_name(){
       var user = Meteor.user();
-      if (user === null || typeof user === 'undefined') { return ""; }
+      if (user === null || typeof user === 'undefined') {console.log('no user'); return ""; }
       e = user.username;
-      if (e === null || typeof e === 'undefined') { return ""; }
+      if (e === null || typeof e === 'undefined') {console.log('no username'); return ""; }
       return e;
   }
   Accounts.ui.config(
@@ -54,8 +54,8 @@ if (Meteor.isClient) {
     return Bids.find({}, {sort: {price: -1}});
   };
 
-  Template.bid_list.name = function() {return get_name()};
-  Template.ask_list.name = function() {return get_name()};
+  Template.bid_list.username = get_name();
+  Template.ask_list.username = get_name();
   Template.ask_info.is_mine = function() {
     return (this.user_id === Meteor.userId());
   };
