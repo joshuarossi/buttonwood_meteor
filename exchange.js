@@ -46,7 +46,7 @@ if (Meteor.isClient) {
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
-  name =  Meteor.user().username;
+
   Template.bid_list.name = name;
   Template.ask_list.name = name;
   Template.ask_info.is_mine = function() {
@@ -66,6 +66,7 @@ if (Meteor.isClient) {
         Asks.remove(this._id);
     }
   });
+  name =  Meteor.user().username;
   Template.bid_list.events({
     'click input.remove': function(){
         Bids.remove(this._id);
