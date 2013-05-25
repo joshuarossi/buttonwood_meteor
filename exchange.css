@@ -8,12 +8,11 @@ h2 {
 	text-align: center;
 }
 body {
-	background-color: gray;
-	color: white;
+    color: white;
 	font-size: 20;
 	text-shadow: 1px 1px 1px #000;
 	font-family: Tahoma;
-	background-image: -webkit-radial-gradient(center, circle closest-corner, #D6D6D6 0%, #A1A19B 20%, #404040 50%, #0C0D0D 100%);
+    background: url('Public/Images/hexabump.png');
 }
 
 td {
