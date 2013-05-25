@@ -11,7 +11,7 @@ get_location = function () {
         alert("Geolocation is not supported by this browser");
     }
 };
-function displayPosition(position) {
+function displayPosition() {
     alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
 }
 
