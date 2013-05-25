@@ -43,6 +43,9 @@ if (Meteor.isClient) {
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
   );
   getLocation();
+  function get_username() {
+    username = Meteor.user.username;
+  }
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };

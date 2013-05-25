@@ -21,9 +21,9 @@ td {
 	/*border: 1px solid #eee;*/
 
 	/*Transition*/
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: 	all 0.5s ease;
-	-o-transition: 		all 0.5s ease;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: 	all 0.25s ease;
+	-o-transition: 		all 0.25s ease;
 }
 th {
 	margin: 25px;
@@ -31,9 +31,9 @@ th {
 	border: 1px solid #eee;
 
 	/*Transition*/
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: 	all 0.5s ease;
-	-o-transition: 		all 0.5s ease;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: 	all 0.25s ease;
+	-o-transition: 		all 0.25s ease;
 }
 table {
 
