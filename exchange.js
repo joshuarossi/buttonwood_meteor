@@ -39,10 +39,19 @@ function click_input_add(kind) {
 }
 
 if (Meteor.isClient) {
+
+  function getUsername() {
+    var user = Meteor.user();
+    if (user === null || typeof user === 'undefined') { return ""; }
+    return user.username;
+  }
+
   Accounts.ui.config(
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
   );
   getLocation();
+  Template.bid_list.username = function() { return getUsername(); };
+  Template.ask_list.username = function() { return getUsername(); };
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
