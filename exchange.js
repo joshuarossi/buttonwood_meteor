@@ -68,7 +68,7 @@ if (Meteor.isClient) {
     'click input.add': function() { click_input_add("ask"); }
   });
   Template.bid_list.events({
-    'click input.add': function() { click_input_add("bid"); foo(); }
+    'click input.add': function() { click_input_add("bid");}
   });
   Template.ask_list.events({
     'click input.remove': function(){ Asks.remove(this._id); }
@@ -79,5 +79,6 @@ if (Meteor.isClient) {
     }
   });
 }
+Template.bid_list.foo = foo();
 
 

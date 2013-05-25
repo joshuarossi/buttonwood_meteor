@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a.js" afterPath="$PROJECT_DIR$/a.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.html" afterPath="$PROJECT_DIR$/exchange.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.js" afterPath="$PROJECT_DIR$/exchange.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497501341" ignored="false" />
-    <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369490687182" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497771605" ignored="false" />
+    <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497960653" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369490577560" ignored="false" />
-    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497463261" ignored="false" />
+    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497933165" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -44,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exchange.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="exchange.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="53" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.8846154">
+            <state line="17" column="9" selection-start="322" selection-end="322" vertical-scroll-proportion="0.5391791">
               <folding />
             </state>
           </provider>
@@ -56,16 +57,16 @@
       <file leaf-file-name="exchange.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="69" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.0">
+            <state line="81" column="30" selection-start="2428" selection-end="2428" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="a.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+            <state line="2" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,9 +102,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/exchange.css" />
-        <option value="$PROJECT_DIR$/exchange.html" />
-        <option value="$PROJECT_DIR$/exchange.js" />
         <option value="$PROJECT_DIR$/a.js" />
+        <option value="$PROJECT_DIR$/exchange.js" />
+        <option value="$PROJECT_DIR$/exchange.html" />
       </list>
     </option>
   </component>
@@ -233,7 +234,11 @@
       <created>1369497507773</created>
       <updated>1369497507773</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Testing externally defined functions">
+      <created>1369497774310</created>
+      <updated>1369497774310</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -350,23 +355,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exchange.html">
+    <entry file="file://$PROJECT_DIR$/a.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.8846154">
+        <state line="2" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="69" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.0">
+        <state line="81" column="30" selection-start="2428" selection-end="2428" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a.js">
+    <entry file="file://$PROJECT_DIR$/exchange.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+        <state line="17" column="9" selection-start="322" selection-end="322" vertical-scroll-proportion="0.5391791">
           <folding />
         </state>
       </provider>
