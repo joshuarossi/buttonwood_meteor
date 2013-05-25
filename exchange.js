@@ -39,10 +39,6 @@ function click_input_add(kind) {
 }
 
 if (Meteor.isClient) {
-  function getUserName(){
-    e = Meteor.user();
-    return e.username;
-  }
   Accounts.ui.config(
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
   );
@@ -50,8 +46,8 @@ if (Meteor.isClient) {
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
-  Template.bid_list.name = function() { return getUserName(); };
-  Template.ask_list.name = function() { return getUserName(); };
+  Template.bid_list.name = Meteor.user().username;
+  Template.ask_list.name = Meteor.user().username;
   Template.ask_info.is_mine = function() {
     return (this.user_id === Meteor.userId());
   };
