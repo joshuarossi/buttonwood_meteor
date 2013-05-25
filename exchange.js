@@ -39,6 +39,10 @@ function click_input_add(kind) {
 }
 
 if (Meteor.isClient) {
+  function get_name(){
+      if (user === null || typeof user === 'undefined') { return ""; }
+      return Meteor.user().username;
+  }
   Accounts.ui.config(
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
   );
@@ -47,8 +51,8 @@ if (Meteor.isClient) {
     return Bids.find({}, {sort: {price: -1}});
   };
 
-  Template.bid_list.name = name;
-  Template.ask_list.name = name;
+  Template.bid_list.name = function() {return get_name()};
+  Template.ask_list.name = function() {return get_name()};
   Template.ask_info.is_mine = function() {
     return (this.user_id === Meteor.userId());
   };
@@ -66,7 +70,7 @@ if (Meteor.isClient) {
         Asks.remove(this._id);
     }
   });
-  name =  Meteor.user().username;
+
   Template.bid_list.events({
     'click input.remove': function(){
         Bids.remove(this._id);
