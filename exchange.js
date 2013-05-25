@@ -79,6 +79,6 @@ if (Meteor.isClient) {
     }
   });
 }
-Template.bid_list.foo = foo();
+Template.Foo.foo = foo();
 
 
