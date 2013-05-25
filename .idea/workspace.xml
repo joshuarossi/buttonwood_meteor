@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.css" afterPath="$PROJECT_DIR$/exchange.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369514182571" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369514238508" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369498526573" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369514220110" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369510970429" ignored="false" />
@@ -56,7 +55,7 @@
       <file leaf-file-name="exchange.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="50" selection-start="253" selection-end="253" vertical-scroll-proportion="0.21945433">
+            <state line="14" column="48" selection-start="251" selection-end="251" vertical-scroll-proportion="0.21945433">
               <folding />
             </state>
           </provider>
@@ -358,7 +357,11 @@
       <created>1369511067277</created>
       <updated>1369511067277</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Background images">
+      <created>1369514242504</created>
+      <updated>1369514242504</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -446,7 +449,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Location features working, each order has a location tag, and your user session also has location. &#10;&#10;Testing now, to see if it updates as you move." />
+    <option name="LAST_COMMIT_MESSAGE" value="Background images" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -464,6 +467,7 @@
     <MESSAGE value="Geolocation test, using watchPosition and tying that to a session variable" />
     <MESSAGE value="Testing externally defined functions" />
     <MESSAGE value="Location features working, each order has a location tag, and your user session also has location. &#10;&#10;Testing now, to see if it updates as you move." />
+    <MESSAGE value="Background images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -551,7 +555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="253" selection-end="253" vertical-scroll-proportion="0.21945433">
+        <state line="14" column="48" selection-start="251" selection-end="251" vertical-scroll-proportion="0.21945433">
           <folding />
         </state>
       </provider>
