@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="" />
+    <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.css" afterPath="$PROJECT_DIR$/exchange.css" />
+    </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369525000377" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369525747550" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369516955756" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369516637788" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369510970429" ignored="false" />
@@ -52,7 +54,7 @@
       <file leaf-file-name="exchange.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="0" selection-start="2156" selection-end="2156" vertical-scroll-proportion="2.8994615">
+            <state line="37" column="7" selection-start="622" selection-end="622" vertical-scroll-proportion="0.3950178">
               <folding />
             </state>
           </provider>
@@ -61,7 +63,7 @@
       <file leaf-file-name="exchange.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="24" selection-start="537" selection-end="537" vertical-scroll-proportion="-18.307692">
+            <state line="28" column="24" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,9 +127,9 @@
       <list>
         <option value="$PROJECT_DIR$/a.js" />
         <option value="$PROJECT_DIR$/location.js" />
-        <option value="$PROJECT_DIR$/exchange.css" />
         <option value="$PROJECT_DIR$/exchange.html" />
         <option value="$PROJECT_DIR$/exchange.js" />
+        <option value="$PROJECT_DIR$/exchange.css" />
       </list>
     </option>
   </component>
@@ -428,7 +430,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -592,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="537" selection-end="537" vertical-scroll-proportion="-18.307692">
+        <state line="28" column="24" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -606,7 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="2156" selection-end="2156" vertical-scroll-proportion="2.8994615">
+        <state line="37" column="7" selection-start="622" selection-end="622" vertical-scroll-proportion="0.3950178">
           <folding />
         </state>
       </provider>

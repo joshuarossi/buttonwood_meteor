@@ -36,8 +36,6 @@ th {
 	-o-transition: 		all 0.5s ease;
 }
 table {
-	table-layout: fixed;
-	float: left;
 	color: #F0FFFF;
 	font-weight: bold;
 	border-collapse: separate;
@@ -49,7 +47,7 @@ table {
 	
 }
 tr {
-	background-color: #3366FF;
+	/*background-color: #3366FF;*/
 }
 
 th:first-child {
@@ -118,5 +116,5 @@ th:hover {
 }
 #wrapper {
     margin: auto;
-    display: inline-block;
+
 }
