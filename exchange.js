@@ -68,12 +68,11 @@ if (Meteor.isClient) {
     'click input.add': function() { click_input_add("ask"); }
   });
   Template.bid_list.events({
-    'click input.add': function() { click_input_add("bid");}
+    'click input.add': function() { click_input_add("bid"); foo();}
   });
   Template.ask_list.events({
     'click input.remove': function(){ Asks.remove(this._id); }
   });
-  Template.Foo.foo = foo();
   Template.bid_list.events({
     'click input.remove': function(){
       Bids.remove(this._id);
