@@ -4,11 +4,11 @@ Asks = new Meteor.Collection("asks");
 
 
 function displayPosition(position) {
-    alert("Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude);
+    alert("Latitude: " + Position.coords.latitude + ", Longitude: " + Position.coords.longitude);
 }
 
 setPosition = function (position) {
-    Session.set("location", {"latitude": position.coords.latitude, "longitude": position.coords.longitude});
+    Session.set("location", {"latitude": Position.coords.latitude, "longitude": Position.coords.longitude});
 };
 displayError = function () {
     var errors = {
@@ -23,7 +23,7 @@ get_location = function () {
     if (navigator.geolocation) {
         var timeoutVal = 10 * 1000 * 1000;
         navigator.geolocation.watchPosition(
-            displayPosition(position),
+            displayPosition(Position),
             displayError(),
             { enableHighAccuracy: true, timeout: timeoutVal, maximumAge: 0 }
         );

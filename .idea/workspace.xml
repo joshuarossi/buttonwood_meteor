@@ -7,10 +7,10 @@
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503523961" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503654322" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369498526573" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369490577560" ignored="false" />
-    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503500909" ignored="false" />
+    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503763021" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -31,6 +31,10 @@
     <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/ordered-dict/ordered_dict.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/session/session.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/domutils/domutils.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/accounts-ui-unstyled/login_buttons_session.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/jquery/jquery.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +75,7 @@
       <file leaf-file-name="exchange.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="2" selection-start="957" selection-end="957" vertical-scroll-proportion="0.08066429">
+            <state line="25" column="36" selection-start="749" selection-end="749" vertical-scroll-proportion="0.5041518">
               <folding />
             </state>
           </provider>
@@ -301,7 +305,11 @@
       <created>1369503526618</created>
       <updated>1369503526618</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Testing externally defined functions">
+      <created>1369503656731</created>
+      <updated>1369503656731</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -455,7 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="2" selection-start="957" selection-end="957" vertical-scroll-proportion="0.08066429">
+        <state line="25" column="36" selection-start="749" selection-end="749" vertical-scroll-proportion="0.5041518">
           <folding />
         </state>
       </provider>
