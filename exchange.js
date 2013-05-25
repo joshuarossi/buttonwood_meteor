@@ -12,7 +12,8 @@ function noLocation()
     alert('Could not find location');
 }
 function getUserName(){
-    return Meteor.user().username;
+    e = Meteor.user();
+    return e.username;
 }
 function click_input_add(kind) {
   var user = Meteor.user();
