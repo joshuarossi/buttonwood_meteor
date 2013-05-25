@@ -1,5 +1,4 @@
 console.log("loading exchange");
-theStuff();
 
 Bids = new Meteor.Collection("bids");
 Asks = new Meteor.Collection("asks");
