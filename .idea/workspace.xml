@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.css" afterPath="$PROJECT_DIR$/exchange.css" />
-    </list>
+    <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="" />
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369525747550" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369516955756" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369516637788" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369510970429" ignored="false" />
-=======
-    <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="" />
-    <ignored path="buttonwood_meteor.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369525486744" ignored="false" />
-    <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369522059180" ignored="false" />
-    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369518982076" ignored="false" />
-    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369521846620" ignored="false" />
->>>>>>> origin/layout
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -64,11 +52,7 @@
       <file leaf-file-name="exchange.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.css">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="37" column="7" selection-start="622" selection-end="622" vertical-scroll-proportion="0.3950178">
-=======
-            <state line="33" column="31" selection-start="517" selection-end="517" vertical-scroll-proportion="-0.9561091">
->>>>>>> origin/layout
+            <state line="68" column="45" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.2218268">
               <folding />
             </state>
           </provider>
@@ -77,11 +61,7 @@
       <file leaf-file-name="exchange.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="28" column="24" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
-=======
-            <state line="40" column="34" selection-start="722" selection-end="722" vertical-scroll-proportion="-26.153847">
->>>>>>> origin/layout
+            <state line="42" column="24" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,11 +70,7 @@
       <file leaf-file-name="exchange.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="9" column="37" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
-=======
-            <state line="57" column="41" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0">
->>>>>>> origin/layout
+            <state line="19" column="37" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,9 +125,9 @@
       <list>
         <option value="$PROJECT_DIR$/a.js" />
         <option value="$PROJECT_DIR$/location.js" />
-        <option value="$PROJECT_DIR$/exchange.css" />
-        <option value="$PROJECT_DIR$/exchange.js" />
         <option value="$PROJECT_DIR$/exchange.html" />
+        <option value="$PROJECT_DIR$/exchange.js" />
+        <option value="$PROJECT_DIR$/exchange.css" />
       </list>
     </option>
   </component>
@@ -160,28 +136,6 @@
     <option name="y" value="-8" />
     <option name="width" value="1692" />
     <option name="height" value="1026" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>JSUnresolvedVariable</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -439,71 +393,7 @@
       <created>1369516033729</created>
       <updated>1369516033729</updated>
     </task>
-<<<<<<< HEAD
     <option name="localTasksCounter" value="40" />
-=======
-    <task id="LOCAL-00040" summary="background image">
-      <created>1369516970605</created>
-      <updated>1369516970605</updated>
-    </task>
-    <task id="LOCAL-00041" summary="background image">
-      <created>1369519401813</created>
-      <updated>1369519401813</updated>
-    </task>
-    <task id="LOCAL-00042" summary="background image">
-      <created>1369519564666</created>
-      <updated>1369519564666</updated>
-    </task>
-    <task id="LOCAL-00043" summary="background image">
-      <created>1369519858715</created>
-      <updated>1369519858715</updated>
-    </task>
-    <task id="LOCAL-00044" summary="background image">
-      <created>1369519969318</created>
-      <updated>1369519969318</updated>
-    </task>
-    <task id="LOCAL-00045" summary="background image">
-      <created>1369520089695</created>
-      <updated>1369520089695</updated>
-    </task>
-    <task id="LOCAL-00046" summary="background image">
-      <created>1369520219513</created>
-      <updated>1369520219513</updated>
-    </task>
-    <task id="LOCAL-00047" summary="background image">
-      <created>1369520388324</created>
-      <updated>1369520388324</updated>
-    </task>
-    <task id="LOCAL-00048" summary="background image">
-      <created>1369520485157</created>
-      <updated>1369520485157</updated>
-    </task>
-    <task id="LOCAL-00049" summary="background image">
-      <created>1369520913361</created>
-      <updated>1369520913361</updated>
-    </task>
-    <task id="LOCAL-00050" summary="background image">
-      <created>1369521097723</created>
-      <updated>1369521097723</updated>
-    </task>
-    <task id="LOCAL-00051" summary="background image">
-      <created>1369521420440</created>
-      <updated>1369521420440</updated>
-    </task>
-    <task id="LOCAL-00052" summary="background image">
-      <created>1369521600849</created>
-      <updated>1369521600849</updated>
-    </task>
-    <task id="LOCAL-00053" summary="background image">
-      <created>1369521961972</created>
-      <updated>1369521961972</updated>
-    </task>
-    <task id="LOCAL-00054" summary="background image">
-      <created>1369522066199</created>
-      <updated>1369522066199</updated>
-    </task>
-    <option name="localTasksCounter" value="55" />
->>>>>>> origin/layout
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -528,7 +418,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1692" height="1026" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32336017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -617,7 +507,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="24" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
@@ -625,8 +514,6 @@
         </state>
       </provider>
     </entry>
-=======
->>>>>>> origin/layout
     <entry file="file://$PROJECT_DIR$/.meteor/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="6" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
@@ -703,46 +590,23 @@
         <state />
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/exchange.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+        <state line="42" column="24" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-=======
-    <entry file="file://$PROJECT_DIR$/hexabump.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
->>>>>>> origin/layout
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="9" column="37" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
-=======
-        <state line="57" column="41" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0">
->>>>>>> origin/layout
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/exchange.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="7" selection-start="622" selection-end="622" vertical-scroll-proportion="0.3950178">
-=======
-    <entry file="file://$PROJECT_DIR$/exchange.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="34" selection-start="722" selection-end="722" vertical-scroll-proportion="-26.153847">
+        <state line="19" column="37" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="31" selection-start="517" selection-end="517" vertical-scroll-proportion="-0.9561091">
->>>>>>> origin/layout
+        <state line="68" column="45" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.2218268">
           <folding />
         </state>
       </provider>
