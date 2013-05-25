@@ -7,14 +7,34 @@
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502594172" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502624179" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369498526573" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369490577560" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369501153901" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
-    <file path="/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502585166" ignored="false" />
+    <file path="/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502870797" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app.json" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/livedata/livedata_connection.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/dependencies.json" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/livedata/sockjs-0.3.4.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/livedata/livedata_connection.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/accounts-password/password_server.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/livedata/livedata_server.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/spark/patch.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/underscore/underscore.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/spark/spark.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/spark/utils.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/jquery/jquery.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/ordered-dict/ordered_dict.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/underscore/underscore.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/accounts-ui-unstyled/login_buttons_session.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/ordered-dict/ordered_dict.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/session/session.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
+    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/domutils/domutils.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +84,7 @@
       <file leaf-file-name="location.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/location.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="28" selection-start="414" selection-end="414" vertical-scroll-proportion="0.26215896">
+            <state line="13" column="33" selection-start="419" selection-end="419" vertical-scroll-proportion="0.26215896">
               <folding />
             </state>
           </provider>
@@ -273,7 +293,11 @@
       <created>1369502596390</created>
       <updated>1369502596390</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Testing externally defined functions">
+      <created>1369502626610</created>
+      <updated>1369502626610</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -427,7 +451,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/location.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="414" selection-end="414" vertical-scroll-proportion="0.26215896">
+        <state line="13" column="33" selection-start="419" selection-end="419" vertical-scroll-proportion="0.26215896">
           <folding />
         </state>
       </provider>
