@@ -131,6 +131,12 @@ th:hover {
     background-color: darkgreen;
 }
 .up {
-    background-color: gray;
-    color: white;
+    text-align: left;
+    background-color: white;
+    color: green;
+}
+.down {
+    text-align: right;
+    background-color: white;
+    color: red;
 }

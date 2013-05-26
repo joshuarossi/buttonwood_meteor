@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.html" afterPath="$PROJECT_DIR$/exchange.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.css" afterPath="$PROJECT_DIR$/exchange.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533164586" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533473114" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533391199" ignored="false" />
-    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369532974396" ignored="false" />
+    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533679820" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369531414428" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -52,19 +52,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="exchange.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="exchange.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="47" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0">
+            <state line="138" column="21" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.8790036">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exchange.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exchange.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="84" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.8127295">
+            <state line="93" column="84" selection-start="1954" selection-end="1954" vertical-scroll-proportion="-25.538462">
               <folding />
             </state>
           </provider>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/a.js" />
         <option value="$PROJECT_DIR$/location.js" />
         <option value="$PROJECT_DIR$/exchange.js" />
-        <option value="$PROJECT_DIR$/exchange.css" />
         <option value="$PROJECT_DIR$/exchange.html" />
+        <option value="$PROJECT_DIR$/exchange.css" />
       </list>
     </option>
   </component>
@@ -478,7 +478,11 @@
       <created>1369533168279</created>
       <updated>1369533168279</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Merge remote-tracking branch 'origin/layout'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1369533476047</created>
+      <updated>1369533476047</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -679,16 +683,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exchange.css">
+    <entry file="file://$PROJECT_DIR$/exchange.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="47" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0">
+        <state line="93" column="84" selection-start="1954" selection-end="1954" vertical-scroll-proportion="-25.538462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exchange.html">
+    <entry file="file://$PROJECT_DIR$/exchange.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="84" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.8127295">
+        <state line="138" column="21" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.8790036">
           <folding />
         </state>
       </provider>
