@@ -69,11 +69,11 @@ if (Meteor.isClient) {
   };
   Template.bid_list.gox_sell = function() {
       gox = Session.get('gox');
-      return gox.data.return.sell.display_short;
+      return gox.return.sell.display_short;
   }
   Template.ask_list.gox_buy = function(){
       gox = Session.get('gox');
-      return gox.data.return.buy.display_short;
+      return gox.return.buy.display_short;
   }
   Template.ask_list.is_mine = function() {
       if (this.name === getUsername()) {
