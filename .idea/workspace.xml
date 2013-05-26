@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.html" afterPath="$PROJECT_DIR$/exchange.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.js" afterPath="$PROJECT_DIR$/exchange.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535052851" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535732771" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535563068" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533679820" ignored="false" />
-    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535720716" ignored="false" />
+    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535917501" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502870797" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app.json" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
@@ -23,7 +22,6 @@
     <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/livedata/livedata_server.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/spark/patch.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/underscore/underscore.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/spark/spark.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/spark/utils.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/ordered-dict/ordered_dict.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/underscore/underscore.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
@@ -32,11 +30,8 @@
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/domutils/domutils.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369503706497" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/accounts-base/accounts_server.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535463823" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535463823" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/minimongo/minimongo.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535463823" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535463823" ignored="false" />
-    <file path="$PROJECT_DIR$/.meteor/local/build/app/packages/mongo-livedata/collection.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369535463823" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +72,7 @@
       <file leaf-file-name="exchange.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="47" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.8386714">
+            <state line="23" column="68" selection-start="670" selection-end="670" vertical-scroll-proportion="0.34282324">
               <folding />
             </state>
           </provider>
@@ -522,7 +517,11 @@
       <created>1369535057082</created>
       <updated>1369535057083</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Merge remote-tracking branch 'origin/layout'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1369535735306</created>
+      <updated>1369535735306</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -732,7 +731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="47" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.8386714">
+        <state line="23" column="68" selection-start="670" selection-end="670" vertical-scroll-proportion="0.34282324">
           <folding />
         </state>
       </provider>

@@ -20,8 +20,8 @@ function click_input_add(kind) {
   }
   var name = user.username;
   var email = user.emails[0].address;
-  var price = document.getElementById(kind + '_price').value;
-  var size = document.getElementById(kind + '_size').value;
+  var price = parseInt(document.getElementById(kind + '_price').value);
+  var size = parseInt(document.getElementById(kind + '_size').value);
   //console.log("user.id is " + user._id);
   if (price === '' || size === '') {
     alert('must have valid price and size');
