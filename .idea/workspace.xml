@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.html" afterPath="$PROJECT_DIR$/exchange.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369531659580" ignored="false" />
-    <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369531267125" ignored="false" />
-    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369531529164" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369532979388" ignored="false" />
+    <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533042476" ignored="false" />
+    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369532974396" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369531414428" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -54,25 +55,25 @@
       <file leaf-file-name="exchange.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="17" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+            <state line="122" column="47" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exchange.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="exchange.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="36" selection-start="1534" selection-end="1534" vertical-scroll-proportion="-49.692307">
+            <state line="91" column="107" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.8127295">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exchange.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exchange.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="19" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.17319098">
+            <state line="64" column="19" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,9 +110,9 @@
       <list>
         <option value="$PROJECT_DIR$/a.js" />
         <option value="$PROJECT_DIR$/location.js" />
-        <option value="$PROJECT_DIR$/exchange.html" />
         <option value="$PROJECT_DIR$/exchange.js" />
         <option value="$PROJECT_DIR$/exchange.css" />
+        <option value="$PROJECT_DIR$/exchange.html" />
       </list>
     </option>
   </component>
@@ -147,10 +148,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-        <subPane subId="All" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,6 +195,10 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+        <subPane subId="All" />
       </pane>
     </panes>
   </component>
@@ -461,7 +462,15 @@
       <created>1369531661897</created>
       <updated>1369531661897</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Merge remote-tracking branch 'origin/layout'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1369532934020</created>
+      <updated>1369532934020</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Merge remote-tracking branch 'origin/layout'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1369532984094</created>
+      <updated>1369532984095</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -578,9 +587,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/location.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.css">
@@ -606,9 +613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/location.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/session/session.js">
@@ -651,35 +656,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.meteor/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="12" selection-end="12" vertical-scroll-proportion="0.040332146">
-          <folding />
-        </state>
+        <state line="2" column="6" selection-start="12" selection-end="12" vertical-scroll-proportion="0.040332146" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/location.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+        <state line="27" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exchange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="19" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="17" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+        <state line="122" column="47" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="36" selection-start="1534" selection-end="1534" vertical-scroll-proportion="-49.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exchange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="19" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.17319098">
+        <state line="91" column="107" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.8127295">
           <folding />
         </state>
       </provider>
