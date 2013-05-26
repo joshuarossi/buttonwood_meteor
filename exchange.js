@@ -38,6 +38,7 @@ function click_input_add(kind) {
   document.getElementById(kind + '_size').value = '';
 }
 gox = Meteor.http.get('http://data.mtgox.com/api/1/BTCUSD/ticker_fast', {}, function (error, result) {
+    Session.set("gox", {});
     if (result.statusCode === 200) {
         Session.set("gox", result);
     }
@@ -68,12 +69,10 @@ if (Meteor.isClient) {
       }
   };
   Template.bid_list.gox_sell = function() {
-      gox = Session.get('gox');
-      return gox.return.sell.display_short;
+      return Session.get('gox'.return.sell.display_short);
   }
   Template.ask_list.gox_buy = function(){
-      gox = Session.get('gox');
-      return gox.return.buy.display_short;
+      return Session.get('gox'.return.buy.display_short);
   }
   Template.ask_list.is_mine = function() {
       if (this.name === getUsername()) {
