@@ -34,8 +34,8 @@ function click_input_add(kind) {
   if (isNaN(price) || isNaN(size)) {
     alert('must have valid price and size');
   }
-  if (price < 1 || size < 1){
-    alert('Price or  Size too small');
+  else if (price <1 || size < 1 ){
+      alert('price or size too small');
   }
   else {
     position = [Session.get("location").latitude, Session.get("location").longitude];
