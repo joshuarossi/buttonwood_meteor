@@ -7,7 +7,7 @@
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369532979388" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533052761" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533042476" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369532974396" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369531414428" ignored="false" />
@@ -64,7 +64,7 @@
       <file leaf-file-name="exchange.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="107" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.8127295">
+            <state line="91" column="84" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.8127295">
               <folding />
             </state>
           </provider>
@@ -470,7 +470,11 @@
       <created>1369532984094</created>
       <updated>1369532984095</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Merge remote-tracking branch 'origin/layout'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1369533056344</created>
+      <updated>1369533056344</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -680,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="107" selection-start="1866" selection-end="1866" vertical-scroll-proportion="0.8127295">
+        <state line="91" column="84" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.8127295">
           <folding />
         </state>
       </provider>
