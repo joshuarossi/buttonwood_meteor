@@ -91,8 +91,15 @@ if (Meteor.isClient) {
   Template.bid_list.events({
     'click input.remove': function(){
         Bids.remove(this._id);
+    },
+    'click input.up_price': function() {
+        Bids.update(this._id, {$inc: {price: 1}})
+    },
+    'click input.down_price': function() {
+        Bids.update(this._id, {$inc: {price: -1}})
     }
   });
+
 }
 
 
