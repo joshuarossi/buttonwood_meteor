@@ -27,7 +27,9 @@ function click_input_add(kind) {
   var name = user.username;
   var email = user.emails[0].address;
   var price = parseInt(document.getElementById(kind + '_price').value);
+  console.log(price);
   var size = parseInt(document.getElementById(kind + '_size').value);
+  console.log(size);
   //console.log("user.id is " + user._id);
   if (price === null || size === null) {
     alert('must have valid price and size');
