@@ -39,7 +39,7 @@ function click_input_add(kind) {
 }
 if (Meteor.isServer){
     gox = {};
-    gox = Meteor.http.get('http://data.mtgox.com/api/1/BTCUSD/ticker_fast').unblock();
+    gox = Meteor.http.get('http://data.mtgox.com/api/1/BTCUSD/ticker_fast').this.unblock();
 }
 if (Meteor.isClient) {
   function getUsername() {
