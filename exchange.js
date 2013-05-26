@@ -37,7 +37,11 @@ function click_input_add(kind) {
   document.getElementById(kind + '_price').value = '';
   document.getElementById(kind + '_size').value = '';
 }
-gox = (Meteor.http.get('http://data.mtgox.com/api/1/BTCUSD/ticker_fast',{}, function(){console.log(gox)}));
+gox = Meteor.http.get('http://data.mtgox.com/api/1/BTCUSD/ticker_fast', {}, function (error, result) {
+    if (result.statusCode === 200) {
+        Session.set("gox", result);
+    }
+});
 
 if (Meteor.isClient) {
   function getUsername() {
