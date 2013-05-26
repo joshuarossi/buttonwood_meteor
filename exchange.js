@@ -55,8 +55,6 @@ if (Meteor.isClient) {
     return Bids.find({}, {sort: {price: -1}});
   };
 
-  Template.bid_list.username = get_name();
-  Template.ask_list.username = get_name();
   Template.ask_info.is_mine = function() {
     return (this.user_id === Meteor.userId());
   };
