@@ -128,13 +128,17 @@ if (Meteor.isClient) {
         Bids.update(this._id, {$inc: {price: 1}})
     },
     'click input.down_price': function() {
-        Bids.update(this._id, {$inc: {price: -1}})
+        if (price > 1){
+            Bids.update(this._id, {$inc: {price: -1}})
+        }
     },
     'click input.up_size': function() {
         Bids.update(this._id, {$inc: {size: 1}})
     },
     'click input.down_size': function() {
-        Bids.update(this._id, {$inc: {size: -1}})
+        if (size >1 ){
+            Bids.update(this._id, {$inc: {size: -1}})
+        }
     }
   });
 
