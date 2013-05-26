@@ -37,10 +37,12 @@ function click_input_add(kind) {
   document.getElementById(kind + '_price').value = '';
   document.getElementById(kind + '_size').value = '';
 }
+
 gox = Meteor.http.get('http://data.mtgox.com/api/1/BTCUSD/ticker_fast', {}, function (error, result) {
     Session.set("gox", {});
     if (result.statusCode === 200) {
-        Session.set("gox", result);
+        Session.set("gox_buy", result.return.buy.display_short);
+        Session.set("gox_sell", result.return.sell.display_short);
     }
 });
 
@@ -69,10 +71,10 @@ if (Meteor.isClient) {
       }
   };
   Template.bid_list.gox_sell = function() {
-      return Session.get('gox'.return.sell.display_short);
+      return Session.get('gox_sell');
   }
   Template.ask_list.gox_buy = function(){
-      return Session.get('gox'.return.buy.display_short);
+      return Session.get('gox_buy');
   }
   Template.ask_list.is_mine = function() {
       if (this.name === getUsername()) {
