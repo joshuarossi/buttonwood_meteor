@@ -39,23 +39,12 @@ function click_input_add(kind) {
 }
 
 if (Meteor.isClient) {
-<<<<<<< HEAD
-
   function getUsername() {
     var user = Meteor.user();
     if (user === null || typeof user === 'undefined') { return ""; }
     return user.username;
   }
 
-=======
-  function get_name(){
-      var user = Meteor.user();
-      if (user === null || typeof user === 'undefined') {console.log('no user'); return ""; }
-      e = user.username;
-      if (e === null || typeof e === 'undefined') {console.log('no username'); return ""; }
-      return e;
-  }
->>>>>>> origin/layout
   Accounts.ui.config(
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
   );
