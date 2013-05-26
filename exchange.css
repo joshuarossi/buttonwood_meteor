@@ -130,3 +130,7 @@ th:hover {
 .other {
     background-color: darkgreen;
 }
+.up {
+    background-color: gray;
+    color: white;
+}
