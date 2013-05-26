@@ -46,7 +46,7 @@ table {
 	
 }
 tr {
-	/*background-color: #3366FF;*/
+	height: 39px;
 }
 
 th:first-child {
