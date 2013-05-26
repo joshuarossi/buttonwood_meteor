@@ -39,11 +39,11 @@ function click_input_add(kind) {
 }
 
 gox = Meteor.http.get('http://data.mtgox.com/api/1/BTCUSD/ticker_fast', {}, function (error, result) {
-    Session.set("gox", {});
     if (result.statusCode === 200) {
         Session.set("gox_buy", result.return.buy.display_short);
         Session.set("gox_sell", result.return.sell.display_short);
     }
+    return Session;
 });
 
 if (Meteor.isClient) {
