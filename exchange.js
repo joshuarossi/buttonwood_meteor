@@ -13,6 +13,9 @@ function noLocation()
 }
 function setGox(results){
    Session.set("gox", results);
+   data = JSON.parse(Session.get('gox').content);
+   Session.set('gox_buy', data.return.buy.display_short);
+   Session.set('gox_sell', data.return.sell.display_short);
 }
 function click_input_add(kind) {
   var user = Meteor.user();
