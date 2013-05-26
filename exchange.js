@@ -11,7 +11,9 @@ function noLocation()
 {
     alert('Could not find location');
 }
-
+function setGox(results){
+   Session.set("gox", results);
+}
 function click_input_add(kind) {
   var user = Meteor.user();
   if (user === null) {
@@ -38,10 +40,8 @@ function click_input_add(kind) {
   document.getElementById(kind + '_size').value = '';
 }
 
-gox = Meteor.http.get('http://data.mtgox.com/api/1/BTCUSD/ticker_fast', {}, function (error, result) {
-    if (result.statusCode === 200) {
-        Session.set("gox", result);
-    }
+Meteor.http.get('http://data.mtgox.com/api/1/BTCUSD/ticker_fast', {}, function (error, result) {
+    if (result.statusCode === 200) setGox(result);
 });
 
 if (Meteor.isClient) {
