@@ -29,14 +29,14 @@ function click_input_add(kind) {
   var price = parseInt(document.getElementById(kind + '_price').value);
   var size = parseInt(document.getElementById(kind + '_size').value);
   //console.log("user.id is " + user._id);
-  if (price === '' || size === '') {
+  if (price === null || size === null) {
     alert('must have valid price and size');
+  }
+  if (price < 1 || size < 1){
+    alert('Price or  Size too small');
   }
   else {
     position = [Session.get("location").latitude, Session.get("location").longitude];
-    if (price < 1 || size < 1){
-        alert('Price or  Size too small');
-    }
     if (kind == 'ask') {
       Asks.insert({user_id: user._id, name: name, price: price, size: size, location: position});
     }
