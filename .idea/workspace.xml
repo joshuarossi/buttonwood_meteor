@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.js" afterPath="$PROJECT_DIR$/exchange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.css" afterPath="$PROJECT_DIR$/exchange.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369530506843" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369530889419" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369530411852" ignored="false" />
-    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369516637788" ignored="false" />
+    <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369530856380" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369530673437" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497394004" ignored="false" />
@@ -52,10 +52,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="exchange.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="exchange.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="76" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0">
+            <state line="127" column="34" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.9193357">
               <folding />
             </state>
           </provider>
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exchange.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exchange.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="37" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.5160142">
+            <state line="57" column="37" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,9 +111,9 @@
       <list>
         <option value="$PROJECT_DIR$/a.js" />
         <option value="$PROJECT_DIR$/location.js" />
-        <option value="$PROJECT_DIR$/exchange.css" />
         <option value="$PROJECT_DIR$/exchange.html" />
         <option value="$PROJECT_DIR$/exchange.js" />
+        <option value="$PROJECT_DIR$/exchange.css" />
       </list>
     </option>
   </component>
@@ -435,7 +435,11 @@
       <created>1369530513461</created>
       <updated>1369530513461</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Merge remote-tracking branch 'origin/layout'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1369530736014</created>
+      <updated>1369530736014</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -605,13 +609,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exchange.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="76" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/00_Geo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -653,7 +650,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="37" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.5160142">
+        <state line="57" column="37" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exchange.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="34" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.9193357">
           <folding />
         </state>
       </provider>

@@ -124,3 +124,6 @@ th:hover {
 #login {
     align: center;
 }
+.mine {
+    background-color: springgreen;
+}
