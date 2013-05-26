@@ -7,7 +7,7 @@
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369544872418" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369545060569" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369543207693" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533679820" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369545035532" ignored="false" />
@@ -75,7 +75,7 @@
       <file leaf-file-name="exchange.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="3" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.54448396">
+            <state line="50" column="5" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.6049822">
               <folding />
             </state>
           </provider>
@@ -608,7 +608,11 @@
       <created>1369544874095</created>
       <updated>1369544874095</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Merge remote-tracking branch 'origin/layout'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1369545063502</created>
+      <updated>1369545063502</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -818,7 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="3" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.54448396">
+        <state line="50" column="5" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.6049822">
           <folding />
         </state>
       </provider>
