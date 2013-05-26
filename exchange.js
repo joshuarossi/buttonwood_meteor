@@ -62,6 +62,14 @@ if (Meteor.isClient) {
           return "other"
       }
   };
+  Template.ask_list.is_mine = function() {
+      if (this.name === getUsername()) {
+          return "mine"
+        }
+      else {
+          return "other"
+        }
+    };
   Template.ask_info.is_mine = function() {
     return (this.user_id === Meteor.userId());
   };
