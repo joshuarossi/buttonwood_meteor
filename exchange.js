@@ -55,7 +55,7 @@ if (Meteor.isClient) {
     return Bids.find({}, {sort: {price: -1}});
   };
   Template.bid_list.is_mine = function() {
-      if (this.username() === getUsername) {
+      if (this.name === getUsername()) {
           return "mine"
       }
       else {
