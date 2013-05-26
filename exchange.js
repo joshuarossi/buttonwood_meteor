@@ -87,16 +87,16 @@ if (Meteor.isClient) {
           Asks.remove(this._id);
       },
       'click input.up_price': function() {
-          Bids.update(this._id, {$inc: {price: 1}})
+          Asks.update(this._id, {$inc: {price: 1}})
       },
       'click input.down_price': function() {
-          Bids.update(this._id, {$inc: {price: -1}})
+          Asks.update(this._id, {$inc: {price: -1}})
       },
       'click input.up_size': function() {
-          Bids.update(this._id, {$inc: {size: 1}})
+          Asks.update(this._id, {$inc: {size: 1}})
       },
       'click input.down_size': function() {
-          Bids.update(this._id, {$inc: {size: -1}})
+          Asks.update(this._id, {$inc: {size: -1}})
       }
   });
 
