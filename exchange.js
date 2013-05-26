@@ -54,7 +54,14 @@ if (Meteor.isClient) {
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
-
+  Template.bid_list.is_mine = function() {
+      if (this.username() === getUsername) {
+          return "mine"
+      }
+      else {
+          return "other"
+      }
+  };
   Template.ask_info.is_mine = function() {
     return (this.user_id === Meteor.userId());
   };
