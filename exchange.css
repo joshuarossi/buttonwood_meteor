@@ -125,5 +125,8 @@ th:hover {
     align: center;
 }
 .mine {
-    background-color: springgreen;
+    background-color: darkslateblue;
+}
+.other {
+    background-color: darkgreen;
 }
