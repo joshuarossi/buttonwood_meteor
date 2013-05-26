@@ -34,6 +34,9 @@ function click_input_add(kind) {
   }
   else {
     position = [Session.get("location").latitude, Session.get("location").longitude];
+    if (price < 1 || size < 1){
+        alert('Price or  Size too small');
+    }
     if (kind == 'ask') {
       Asks.insert({user_id: user._id, name: name, price: price, size: size, location: position});
     }
