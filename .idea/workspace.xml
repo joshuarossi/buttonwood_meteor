@@ -7,10 +7,10 @@
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369545932041" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369546034713" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369543207693" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369533679820" ignored="false" />
-    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369545921951" ignored="false" />
+    <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369547083356" ignored="false" />
     <file path="/a.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369497759021" ignored="false" />
     <file path="/location.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502870797" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/app.json" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369502658610" ignored="false" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="exchange.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="23" selection-start="503" selection-end="503" vertical-scroll-proportion="0.28232503">
+            <state line="40" column="94" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.80664295">
               <folding />
             </state>
           </provider>
@@ -619,7 +619,11 @@
       <created>1369545934769</created>
       <updated>1369545934770</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Merge remote-tracking branch 'origin/layout'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1369546036773</created>
+      <updated>1369546036773</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -829,7 +833,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="503" selection-end="503" vertical-scroll-proportion="0.28232503">
+        <state line="40" column="94" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.80664295">
           <folding />
         </state>
       </provider>

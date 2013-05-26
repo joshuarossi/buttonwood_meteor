@@ -10,6 +10,7 @@ function setLocation(position){
 function noLocation()
 {
     alert('Could not find location');
+    Session.set('location', {longitude: null, latitude: null});
 }
 function setGox(results){
    Session.set("gox", results);
@@ -32,11 +33,12 @@ function click_input_add(kind) {
     alert('must have valid price and size');
   }
   else {
+    position = [Session.get("location").latitude, Session.get("location").longitude];
     if (kind == 'ask') {
-      Asks.insert({user_id: user._id, name: name, price: price, size: size, location: [Session.get("location").latitude, Session.get("location").longitude]});
+      Asks.insert({user_id: user._id, name: name, price: price, size: size, location: position});
     }
     if (kind == 'bid') {
-      Bids.insert({user_id: user._id, name: name, price: price, size: size, location: [Session.get("location").latitude, Session.get("location").longitude]});
+      Bids.insert({user_id: user._id, name: name, price: price, size: size, location: position});
     }
   }
   document.getElementById(kind + '_price').value = '';
