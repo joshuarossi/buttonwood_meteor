@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69159a69-4441-433a-99c1-183163b4c0be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/00_Geo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/01_LatLon.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchange.css" afterPath="$PROJECT_DIR$/exchange.css" />
     </list>
     <ignored path="buttonwood_meteor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369526719046" ignored="false" />
+    <file path="/Dummy.txt" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369526783589" ignored="false" />
     <file path="/exchange.html" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369516955756" ignored="false" />
     <file path="/exchange.css" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369516637788" ignored="false" />
     <file path="/exchange.js" changelist="69159a69-4441-433a-99c1-183163b4c0be" time="1369510970429" ignored="false" />
@@ -411,7 +409,11 @@
       <created>1369516033729</created>
       <updated>1369516033729</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Merge remote-tracking branch 'origin/layout'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1369526793748</created>
+      <updated>1369526793748</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">

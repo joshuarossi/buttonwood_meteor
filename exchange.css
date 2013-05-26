@@ -36,11 +36,6 @@ th {
 	-o-transition: 		all 0.25s ease;
 }
 table {
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/layout
 	color: #F0FFFF;
 	font-weight: bold;
 	border-collapse: separate;
@@ -118,13 +113,10 @@ th:hover {
 #header {
     /*background-color: #3366FF;*/
     margin: auto;
-<<<<<<< HEAD
 }
 #wrapper {
     margin: auto;
 
-}
-=======
     display: compact;
 }
 #wrapper {
@@ -133,4 +125,3 @@ th:hover {
 #login {
     align: center;
 }
->>>>>>> origin/layout
