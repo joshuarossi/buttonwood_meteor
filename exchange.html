@@ -91,6 +91,9 @@
  </td>
  <td>{{#if is_mine}}<input id="{{_id}}" type = "button" class = "up" value="&#x21e7;">{{/if}}
      ${{price}}
-     {{#if is_mine}}<input id="{{_id}}" type = "button" class = "up" value="&#x21e9;">{{/if}}</td>
- <td>{{size}}</td>
+     {{#if is_mine}}<input id="{{_id}}" type = "button" class = "down" value="&#x21e9;">{{/if}}</td>
+ <td>
+     {{if #is_mine}}<input id="{{_id}}" tupe = "button" class = "up" value = "&#x21e7;">{{/if}}
+     {{size}}</td>
+     {{if #is_mine}}<input id="{{_id}}" tupe = "button" class = "down" value = "&#x21e9;">{{/if}}
 </template>
