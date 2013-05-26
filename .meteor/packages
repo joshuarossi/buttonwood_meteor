@@ -8,6 +8,3 @@ insecure
 preserve-inputs
 accounts-ui
 accounts-password
-accounts-facebook
-accounts-twitter
-accounts-google
