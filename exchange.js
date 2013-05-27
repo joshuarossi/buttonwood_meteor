@@ -1,5 +1,7 @@
 Bids = new Meteor.Collection("bids");
 Asks = new Meteor.Collection("asks");
+// Add a marker to the map and push to the array.
+
 
 function getLocation(){
     navigator.geolocation.watchPosition(setLocation, noLocation);
@@ -51,6 +53,7 @@ function click_input_add(kind) {
 }
 
 if (Meteor.isClient) {
+
   function getUsername() {
     var user = Meteor.user();
     if (user === null || typeof user === 'undefined') { return ""; }
@@ -63,6 +66,7 @@ if (Meteor.isClient) {
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
   );
   getLocation();
+
   Template.bid_list.username = getUsername;
   Template.ask_list.username = getUsername;
   Template.bid_list.bids = function() {
@@ -119,7 +123,9 @@ if (Meteor.isClient) {
           Asks.update(this._id, {$inc: {size: -1}})
       }
   });
-
+  Template.body.getAllOrders = function () {
+      getAllOrders();
+  };
   Template.bid_list.events({
     'click input.remove': function(){
         Bids.remove(this._id);
@@ -128,20 +134,15 @@ if (Meteor.isClient) {
         Bids.update(this._id, {$inc: {price: 1}})
     },
     'click input.down_price': function() {
-
-            Bids.update(this._id, {$inc: {price: -1}})
-
+        Bids.update(this._id, {$inc: {price: -1}})
     },
     'click input.up_size': function() {
         Bids.update(this._id, {$inc: {size: 1}})
     },
     'click input.down_size': function() {
-
-            Bids.update(this._id, {$inc: {size: -1}})
-
+        Bids.update(this._id, {$inc: {size: -1}})
     }
   });
-
 }
 
 

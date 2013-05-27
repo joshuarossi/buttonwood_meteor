@@ -143,3 +143,8 @@ th:hover {
 #myModal .modal-body {
     height: 430px;
 }
+html, body, #map-canvas {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}

@@ -1,34 +1,59 @@
 <head>
   <title>Satoshi Square</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        html, body, #map-canvas {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-    </style>
+  <meta name="viewport" content="width=device-width, initial-scale=.8">
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script>
+        var map;
+        markers = [];
         google.maps.visualRefresh = true;
         function initialize() {
             var mapOptions = {
-                zoom: 11,
+                zoom: 12,
                 center: new google.maps.LatLng(Session.get('location').latitude, Session.get('location').longitude),
                 disableDefaultUI: true,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
-
-            map = new google.maps.Map(document.getElementById('map-canvas'),
-                    mapOptions);
+            map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+            return map;
         }
-        google.maps.event.addDomListener(window, 'load', initialize);
+
 
         function resize() {
             var center = map.getCenter();
             google.maps.event.trigger(map, "resize");
             map.setCenter(center);
+            AddOrders();
+            for (var i = 0; i < markers.length; i++) {markers[i].setMap(map);}
         }
+        function AddOrders() {
+            markers = []
+            Bids.find().forEach(function (order){
+                var pos = new google.maps.LatLng(order.location[0], order.location[1]);
+                var marker = new google.maps.Marker({
+                    name: order.name,
+                    price: order.price,
+                    position: pos,
+                    map: map
+                });
+                markers.push(marker);
+            });
+            Asks.find().forEach(function (order){
+                var pos = new google.maps.LatLng(order.location[0], order.location[1]);
+                var marker = new google.maps.Marker({
+                    name: order.name,
+                    price: order.price,
+                    position: pos,
+                    map: map
+                });
+                markers.push(marker);
+            });
+        }
+        function setAllMap(map) {
+            for (var i = 0; i < markers.length; i++) {
+                markers[i].setMap(map);
+            }
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
 
 
     </script>
@@ -38,14 +63,12 @@
   <div id="header">
   <h1>Satoshi Square</h1>
   <h2>powered by Project Buttonwood</h2>
-
   </div>
   <center>{{loginButtons}} | <button type="button" data-toggle="modal" data-target="#myModal" id="map_btn">Map</button></center>
   <div id="wrapper">
   {{> body}}
   </div>
 </body>
-
 <template name="body">
 <!--map modal window here-->
  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -151,4 +174,7 @@
  <td>{{#if is_mine}}<input id="{{_id}}" type = "button" class = "up_size" value = "&#x21e7;">{{/if}}
      {{size}}
      {{#if is_mine}}<input id="{{_id}}" type = "button" class = "down_size" value = "&#x21e9;">{{/if}}</td>
+</template>
+<template name="order_markers">
+    "HI"
 </template>
