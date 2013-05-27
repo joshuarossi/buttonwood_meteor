@@ -13,17 +13,19 @@
   <div id="wrapper">
   {{> body}}
   </div>
-
 </body>
+
 <template name="body">
-    <div align="center">
-    <table>
-    <tr>
-    <td>{{> bid_list}}</td>
-    <td>{{> ask_list}}</td>
-    </tr>
-    </table>
-    </div>
+ <div class="container">
+  <div class="row">
+   <div class="span6">
+    {{> bid_list}}
+   </div>
+   <div class="span6">
+    {{> ask_list}}
+   </div>
+  </div>
+ </div>
 </template>
 
 <template name="bid_list">
@@ -36,13 +38,20 @@
   			<th>User</th>
   			<th>Price</th>
   			<th>Size</th>
-  			
   		</tr>
   		<tr>
   			<th>{{username}}</th>
-  			<th><input type="text" id="bid_price" Placeholder={{gox_sell}}></th>
-  			<th><input type="text" id="bid_size" Placeholder=0><input type="button" class="add" value="submit"></th>
-  			
+        <th>
+         <form action="javascript:null" class="form-inline" style="margin-bottom:0; padding:5px">
+          <input type="text" id="bid_price" class="input-medium" Placeholder="{{gox_price}}"/>
+         </form>
+        </th>
+        <th>
+         <form action="javascript:null" class="form-inline" style="margin-bottom:0; padding:5px">
+          <input type="text" id="bid_size" class="input-small" Placeholder="0" />
+          <input type="button" class="add" value="submit">
+         </form>
+        </th>
   		</tr>
   	</thead>
   	<tbody>
@@ -53,8 +62,8 @@
   		{{/each}}
   	</tbody>
   </table>
-  
 </template>
+
 <template name="ask_list">
   <table id="ask_list">
   	<thead>
@@ -68,8 +77,17 @@
   		</tr>
   		<tr>
   			<th>{{username}}</th>
-  			<th><input type="text" id="ask_price" Placeholder={{gox_buy}}></th>
-  			<th><input type="text" id="ask_size" Placeholder=0><input type="button" class="add" value="submit"></th>
+        <th>
+         <form action="javascript:null" class="form-inline" style="margin-bottom:0; padding:5px">
+          <input type="text" id="ask_price" class="input-medium" Placeholder="{{gox_price}}"/>
+         </form>
+        </th>
+        <th>
+         <form action="javascript:null" class="form-inline" style="margin-bottom:0; padding:5px">
+          <input type="text" id="ask_size" class="input-small" Placeholder="0" />
+          <input type="button" class="add" value="submit">
+         </form>
+        </th>
   		</tr>
   	</thead>
   	<tbody>

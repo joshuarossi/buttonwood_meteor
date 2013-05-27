@@ -63,8 +63,8 @@ if (Meteor.isClient) {
   {passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'}
   );
   getLocation();
-  Template.bid_list.username = function() { return getUsername(); };
-  Template.ask_list.username = function() { return getUsername(); };
+  Template.bid_list.username = getUsername;
+  Template.ask_list.username = getUsername;
   Template.bid_list.bids = function() {
     return Bids.find({}, {sort: {price: -1}});
   };
@@ -76,10 +76,10 @@ if (Meteor.isClient) {
           return "other"
       }
   };
-  Template.bid_list.gox_sell = function() {
+  Template.bid_list.gox_price = function() {
       return Session.get('gox_sell');
   }
-  Template.ask_list.gox_buy = function(){
+  Template.ask_list.gox_price = function(){
       return Session.get('gox_buy');
   }
   Template.ask_list.is_mine = function() {
