@@ -140,3 +140,6 @@ th:hover {
     background-color: white;
     color: red;
 }
+#myModal .modal-body {
+    height: 430px;
+}
