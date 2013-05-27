@@ -9,13 +9,12 @@
         }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script>
         google.maps.visualRefresh = true;
         function initialize() {
             var mapOptions = {
                 zoom: 11,
-                center: new google.maps.LatLng(-34.397, 150.644),
+                center: new google.maps.LatLng(Session.get('location').latitude, Session.get('location').longitude),
                 disableDefaultUI: true,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
@@ -48,11 +47,13 @@
 </body>
 
 <template name="body">
+<!--map modal window here-->
  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
  <div class="modal-body" onclick="resize()">
  <div id="map-canvas"></div>
  </div>
  </div>
+<!--end map stuff-->
  <div class="container">
   <div class="row">
     <div class="span5 offset1">
