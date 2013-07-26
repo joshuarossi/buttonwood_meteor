@@ -33,10 +33,8 @@ function click_input_add(kind) {
   var size = parseInt(document.getElementById(kind + '_size').value);
   console.log(size);
   //console.log("user.id is " + user._id);
-  if (isNaN(price) || isNaN(size)) {
-    alert('must have valid price and size');
-  }
-  else if (price <1 || size < 1 ){
+
+  if (price <.01 || size < .01 ){
       alert('price or size too small');
   }
   else {
