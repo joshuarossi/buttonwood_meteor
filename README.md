@@ -10,4 +10,4 @@ The design of this project will be as follows:
 
 We will be using the meteor backend for a real-time, reactive, synchonized user experience. Please look at the milestones, if you are looking to get involved.
 
-For some background on my inspiration check out http://blog.btchshares.com
+For some background on my inspiration check out http://blog.btcshares.com
